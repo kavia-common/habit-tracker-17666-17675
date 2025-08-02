@@ -1,13 +1,17 @@
-/* CSS Variables for Theme Management */
+/* CSS Variables for Theme Management and habit tracker palette */
 :root {
-  /* Light theme colors */
-  --bg-primary: #ffffff;
+  --accent: #ffca28;
+  --primary: #1976d2;
+  --secondary: #424242;
+
+  --bg-primary: #fff;
   --bg-secondary: #f8f9fa;
-  --text-primary: #282c34;
-  --text-secondary: #61dafb;
   --border-color: #e9ecef;
-  --button-bg: #007bff;
-  --button-text: #ffffff;
+  --text-primary: #282c34;
+  --text-secondary: #424242;
+
+  --button-bg: var(--primary);
+  --button-text: #fff;
 }
 
 [data-theme="dark"] {
